@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 35vh;
+  width: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #8aaae5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+}
+
+label {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#password-label {
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  color: #8aaae5;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#username-id {
+  margin-bottom: 5px;
+}
+
+.data-container {
+  width: 60vw;
+  justify-content: space-between;
+}
+
+#save-button {
+  width: 90px;
+  margin-top: 6px;
+}
+
+.data-form {
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.data-container {
+  height: auto;
+}
+
+.list-group-item {
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+}
+
+.tasks-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
