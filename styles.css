@@ -91,6 +91,8 @@ li {
   font-size: 20px;
   line-height: 22px;
   color: white;
+  border-bottom: 2px groove white;
+  padding: 5px;
 }
 
 .tasks-heading {
