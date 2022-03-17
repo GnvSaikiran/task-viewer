@@ -65,7 +65,7 @@ button {
 }
 
 .data-container {
-  width: 60vw;
+  /* width: 60vw; */
   justify-content: space-between;
 }
 
@@ -76,6 +76,7 @@ button {
 
 .data-form {
   align-items: center;
+  margin-left: 60px;
 }
 
 li {
