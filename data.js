@@ -31,7 +31,6 @@ document.getElementById("add-task-form").addEventListener("submit", (e) => {
   } else {
     tasks.push(task);
     localStorage.setItem("tasks", JSON.stringify(tasks));
-    alert("Task added successfully");
     getTasks();
   }
 });
