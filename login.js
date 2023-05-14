@@ -4,7 +4,7 @@ document.getElementById("login-form").addEventListener("submit", (e) => {
   let password = document.getElementById("password-id").value;
   if (username === "" || password === "") {
     alert("Please fill all the fields");
-  } else if (username === "admin" && password === "iamvaccinated") {
+  } else if (username === "admin" && password === "password") {
     window.location.href = "data.html";
   } else {
     alert("Invalid credentials");
